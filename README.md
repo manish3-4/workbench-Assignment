@@ -79,9 +79,10 @@ Users:
 
 ## Screenshots
 
-Add screenshots here after running the app:
+![Dashboard overview](docs/Screenshot%202026-06-24%20021345.png)
 
-- `docs/screenshots/users-page.png`
-- `docs/screenshots/roles-page.png`
-- `docs/screenshots/role-form.png`
+![Role management view](docs/Screenshot%202026-06-24%20021402.png)
 
+![User assignment view](docs/Screenshot%202026-06-24%20021425.png)
+
+![Responsive view](docs/Screenshot%202026-06-24%20021707.png)
