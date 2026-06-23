@@ -1,0 +1,19 @@
+{
+  "name": "workbench-rbac-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack RBAC admin dashboard for building roles and resolving effective permissions.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "typecheck": "npm run typecheck --workspace backend && npm run typecheck --workspace frontend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
