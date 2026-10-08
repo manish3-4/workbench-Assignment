@@ -24,7 +24,7 @@ app.use('/api/users', usersRouter);
 
 app.use(express.static(frontendDistPath, { index: false }));
 
-app.get('/', async (_request, response, next) => {
+app.get('*', async (_request, response, next) => {
   try {
     const indexHtml = await readFile(resolve(frontendDistPath, 'index.html'), 'utf8');
     response.type('html').send(indexHtml);
